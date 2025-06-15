@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+.B1a{
+	text-align-last: center;
+	color: whitesmoke;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	padding-top: 20px;
+	
+	text-shadow: 5px 5px 5px black;
+	font-size: 40px;
+	font-weight: 500px;
+}
+
+.B1b{
+	margin-left: 300px;
+	margin-top: 50px;
+	border-radius: 10px;
+}
+
+img{
+	margin-left: 128px;
+}
+
+.log{
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 30px;
+	font-weight: 300;
+	margin-top: 0px;
+	padding-right: 2px;
+}
+.input-groug{
+	padding: 1.5rem;
+	margin-left: 50px;
+}
+input{
+	color: inherit;
+	width: 100%;
+	background-color:transparent;
+	border: none;
+	border-bottom: 1px solid #757575;
+	font-size: 15px;
+	}
+input:focus{
+	background-color: transparent;
+	outline: transparent;
+	border-bottom: 2px solid hsla(359,86%,22%,1.00)
+	
+	
+}
+
+input::placeholder{
+	color: transparent;
+	 
+}
+label{
+	color: #757575;
+	position:relative;
+	left: 1.2em;
+	top: -1.3em;
+	cursor:auto;
+	transition: 0.3s ease all;
+}
+.btn{
+	font-size: 1.1rem;
+	padding: 8px 0;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	width: 20%;
+	background: rgba(125,125,235,1.00);
+	margin-left: 150px;
+	color: white;
+}
+.btn:hover{
+	 background: #07001f;
+	
+}
+
+.or{
+	font-size: 1.1rem;
+	margin-top: 0.5rem;
+	text-align: center;
+	
+}
+.icons{
+	text-align: center;
+
+}
+.icons i{
+	color: rgb(125,125,235);
+	padding: 0.8rem 1.5rem;
+	border-radius: 10px;
+	font-size: 1.5rem;
+	cursor: pointer;
+	border: 2px solid #df39f5;
+	margin: 0 15px;
+	transition: 1s;
+}
+
+.icons i:hover{
+	background: #07001f;
+	font-size: 1.6rem;
+	border: 2px solid rgb(125,125,235);
+}
+placeholder{
+	color: darkgray;
+}
+
+@media only screen and (min-width: 768px) {}
